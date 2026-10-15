@@ -60,7 +60,7 @@ export default function TaskFlow() {
     return (
         <div className="app">
             <header>
-                <h1>TaskFlow</h1>
+                <h1>Висюлька.com</h1>
                 <button onClick={toggleTheme}>Тема: {theme === "light" ? "светлая" : "НИГАА"}</button>
                 <span>Действий: {actionCount}</span>
             </header>
